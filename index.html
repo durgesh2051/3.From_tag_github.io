@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From task</title>
+    <style>
+        .form{
+            text-align: center;
+            background-color: chartreuse;
+            padding-bottom: 10px;
+        }
+        h3{
+            color: red;
+        }
+        input#submit {
+    background-color: #fc5203;
+    border-radius: 1px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <form action="">
+            <h3>Personal Details.</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <br><br>
+
+            <label for="gender">gender</label>
+            <input type="radio" id="gender" name="gender" value="male" required>Male
+            <input type="radio" id="gender" name="gender" value="female" required>Female
+            <br><br>
+
+            <label for="contact">Contact</label>
+            <input type="tel" id="contact" name="contact" required>
+            <br><br>
+
+            <h3>Educational Qualification</h3>
+
+            <label for="degree">Degree</label>
+            <select name="degree" id="degree">
+                <option value="B.C.A" required>B.C.A</option>
+                <option value="B.cvome" required>B.come</option>
+                <option value="B.B.A" required>B.B.A</option>
+            </select>
+            <br><br>
+
+            <label for="engineering">Engineering</label>
+            <select name="engineering" id="engineering">
+                <option value="B.Tech + M.Tech" required>B.Tech + M.Tech</option>
+                <option value="Diploma (Engineering)" required>Diploma (Engineering)</option>
+                <option value="Bachelor of Engineering" required>Bachelor of Engineering </option>
+            </select>
+            <br><br>
+
+            <label for="hobbies:">hobbies</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="Playing chess" >Playing chess
+            <input type="checkbox" id="hobbies" name="hobbies" value="Reading Books" >Reading Books
+            <br><br>
+
+            <h3>Address</h3> 
+            <textarea name="address" id="address" cols="50" rows="5" required></textarea>
+            <br><br>
+            <label for="attch Resume">Attch Resume</label>
+            <input type="file" id="" name="attch Resume" required>
+            <br><br>
+
+            <input type="submit" id="submit" name="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+
+</html>
